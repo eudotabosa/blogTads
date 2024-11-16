@@ -1,0 +1,46 @@
+/* app/assets/stylesheets/custom.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  .article {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+  
+  .article h2 {
+    font-size: 1.5rem;
+  }
+  
+  .article p {
+    color: #555;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

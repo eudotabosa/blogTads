@@ -1,0 +1,4 @@
+<h2>Comentário</h2>
+<p><strong><%= @comment.user&.email || 'Usuário Anônimo' %></strong> comentou:</p>
+<p><%= @comment.body %></p>
+<p class="text-muted"><%= @comment.created_at.strftime("%d/%m/%Y %H:%M") %></p>
